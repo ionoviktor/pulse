@@ -1,0 +1,33 @@
+@import 'base/variables';
+@import '../css/font.css';
+
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    ::selection {
+        color: #fff;
+        background-color: rgba(255, 31, 31, 0.685);
+    }
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+    @media screen and (max-width: 992px) {
+        padding: 0 30px;
+    }
+}
+
+@import 'blocks/promo';
+@import 'blocks/header.scss';
+@import 'blocks/buttons';
+@import 'blocks/advantage';
+@import 'blocks/titles';
+@import 'blocks/consultation';
+@import 'blocks/forms';
+@import 'blocks/carousel';
+@import 'blocks/catalog';
+@import 'blocks/reviews';
+@import 'blocks/footer';
+
